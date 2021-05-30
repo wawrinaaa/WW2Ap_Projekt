@@ -1,0 +1,97 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+    background-image: url("img/background.png")
+}
+header
+{
+    background: #737373;
+    text-shadow: 
+    2px 2px #111,
+    -2px 2px #111,
+    2px -2px #111,
+    -2px -2px #111;
+    font-size: 2.75em;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    min-height: 120px;
+    color: white;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+}
+.brick
+{
+    width: 45%;
+    margin: 25px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    display: inline-block;
+    padding: 10px;
+    border: 1px #666 solid;
+    min-height: 480px;
+}
+
+.container
+{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+figure img
+{
+    width: 95%;
+    box-shadow: 34px 19px 50px -21px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 34px 19px 50px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 34px 19px 50px -21px rgba(0,0,0,0.75);
+}
+figcaption
+{
+    color: white;
+    font-weight: 900;
+    font-size: 1.25em;
+    transition: 0.3s ease-in-out all;
+}
+figure
+{
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+}
+figure:hover
+{
+    opacity: 0.75;
+}
+figure:hover figcaption
+{
+    color: #a1ffa1;
+}
+footer
+{
+    background: limegreen;
+    border-top: 2px black solid;
+    font-size: 2em;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-align: left;
+    height: 45px;
+    text-align: center;
+    font-family: Satisfy;
+}
+#table1, th, tc
+{
+    border: 1px solid #e69647;
+    color: white;
+    margin: auto;
+    font-size: 1.3em;
+}
+@media only screen and (max-width: 1600px)
+{
+    .brick
+    {
+        width: 70%;
+        min-height: 0;
+    }
+}
