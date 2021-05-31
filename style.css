@@ -3,7 +3,7 @@ body
     margin: 0;
     padding: 0;
     font-family: Lato, sans-serif;
-    background-image: url("img/background.png")
+    background-image: url("img/background.png") /* Background pattern from Toptal Subtle Patterns */
 }
 header
 {
@@ -32,6 +32,7 @@ header
     padding: 10px;
     border: 1px #666 solid;
     min-height: 480px;
+    vertical-align: top;
 }
 
 .container
@@ -86,6 +87,24 @@ footer
     color: white;
     margin: auto;
     font-size: 1.3em;
+}
+ol, ul
+{
+    list-style-position: inside;
+    color: #e69647;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    text-align: justify;
+}
+ol li, ul li
+{
+    margin: 5px 0;
+}
+ol li:last-child, ul li:last-child
+{
+    text-align: center;
 }
 @media only screen and (max-width: 1600px)
 {
